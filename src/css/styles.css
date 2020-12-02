@@ -1,0 +1,50 @@
+/* CSS Document */
+@media(max-width: 767px) {
+    .image_button {
+      padding:3px 6px;
+      font-size:80%;
+      line-height: 1;
+    }
+  }
+    #footballer{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  #button_01{
+      position:absolute;
+      top:7%;
+      left:20%;
+  }
+  #button_02{
+      position:absolute;
+      top:3%;
+      left:84%;
+  }
+  
+  #button_03{
+      position:absolute;
+      top:24%;
+      left:74%;
+  }
+  #button_04{
+      position:absolute;
+      top:62%;
+      left:30%;
+  }
+       
+  #button_05{
+      position:absolute;
+      top:69%;
+      left:82%;
+  } 
+  
+  #button_06{
+      position:absolute;
+      top:40%;
+      left:45%;
+  }
+
+  #info-container{
+      min-height:140px;
+  }
