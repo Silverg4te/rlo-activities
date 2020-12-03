@@ -43,13 +43,9 @@ class ImageWithUserActivatedInfoPanel extends Component {
         info: defaultInfo,
     }
 
-    handleMouseEnter = (info) => {
-        this.setState({info});
-    }
+    handleMouseEnter = (info) => this.setState({info});
 
-    handleMouseLeave = () => {
-        this.setState({info: defaultInfo});
-    }
+    handleMouseLeave = () => this.setState({info: defaultInfo});
 
     render() {
         return (
