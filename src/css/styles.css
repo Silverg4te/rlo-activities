@@ -6,7 +6,7 @@
       line-height: 1;
     }
   }
-    #footballer{
+    #image-user-activated{
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -21,7 +21,7 @@
       top:3%;
       left:84%;
   }
-  
+
   #button_03{
       position:absolute;
       top:24%;
@@ -32,19 +32,15 @@
       top:62%;
       left:30%;
   }
-       
+
   #button_05{
       position:absolute;
       top:69%;
       left:82%;
-  } 
-  
+  }
+
   #button_06{
       position:absolute;
       top:40%;
       left:45%;
-  }
-
-  #info-container{
-      min-height:140px;
   }
