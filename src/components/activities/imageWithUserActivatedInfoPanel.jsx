@@ -1,8 +1,11 @@
 import React, {Component} from 'react';
-import Receipt from '../../images/RX3img.png';
 import "../../css/styles.css";
 
+import Receipt from '../../images/RX3img.png';
+
 const defaultInfo = "Please hover your mouse cursor to the numbered buttons on the prescription to see the importance of each part of the prescription.";
+
+const image = {src: Receipt, alt: "Sample-receipt"}
 
 const buttons = [
     {
@@ -37,7 +40,6 @@ const buttons = [
     }
 ]
 
-
 class ImageWithUserActivatedInfoPanel extends Component {
     state = {
         info: defaultInfo,
@@ -54,7 +56,7 @@ class ImageWithUserActivatedInfoPanel extends Component {
                 <div className="row">
                     <div className="col-md-5 col-xs-12 col-md-offset-3">
                         <div id="image-user-activated">
-                            <img className="img-responsive" style={{width: '100%'}} alt="Sample-receipt" src={Receipt}/>
+                            <img className="img-responsive" style={{width: '100%'}} alt={image.alt} src={image.src}/>
                             {
                                 buttons.map(({id, info, label}) =>
                                     <button
