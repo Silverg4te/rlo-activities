@@ -40,10 +40,10 @@ class RangeSlider extends Component{
         this.setState({ 
             value: currentValue
         });
-        this.testing(currentValue);
+        this.spotLight(currentValue);
     }
 
-    testing = (currentValue) => {
+    spotLight = (currentValue) => {
         console.log(currentValue)
         var value1 = document.getElementById('star1');
         var value2 = document.getElementById('star2');
