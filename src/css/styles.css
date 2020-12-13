@@ -199,3 +199,17 @@
 .cls-33{fill:#a8a800;}
 .cls-34{fill:#e9e900;}
 .cls-35{fill:#2b9823;}
+
+/*For Slider Diagram Info Panel usage*/
+.clS-1{
+    fill:#fff;
+    }
+  .clS-2{
+      fill:#ff4a20;
+  }
+  .clS-3{
+      fill:#fff;
+  }
+  #feedback_container{
+    min-height:140px;
+  }
